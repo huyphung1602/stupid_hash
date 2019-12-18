@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{stupid_hash}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.licenses    = ['MIT']
   s.authors = %q{Harry Phung}
   s.email = %q{huy.phung.sw@gmail.com}

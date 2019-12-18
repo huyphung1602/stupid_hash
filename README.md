@@ -13,7 +13,17 @@ hash = StupidHash::SHash.new
 hash.set(key, value)
 ```
 
+We also able to set the key, value as same as Ruby Hash
+```ruby
+hash.[key] = value
+```
+
 ## Get value from key
 ```ruby
-hash.get(key)
+value =hash.get(key)
+```
+
+We also able to get the key, value as same as Ruby Hash
+```ruby
+value = hash[key]
 ```

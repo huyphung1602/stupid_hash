@@ -35,6 +35,9 @@ module StupidHash
       return nil
     end
 
+    alias_method :[]= , :set
+    alias_method :[]  , :get
+
     private
 
     def override_duplicate_key(note_members, key, value)
