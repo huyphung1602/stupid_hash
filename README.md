@@ -1,7 +1,7 @@
 # Stupid Hash
 A gem that implement Stupid Hash Tables. It will run slower than Ruby Hash
 
-## Install locally
+## Install
 Clone the git repo and run:
 ```shell
 $ gem install stupid_hash
