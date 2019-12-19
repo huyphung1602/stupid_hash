@@ -8,7 +8,7 @@ module StupidHash
 
     def hash(key)
       key.to_s.each_char.inject(0) do |sum, ch|
-        (sum << 8) ^ (ch.ord) ^ (sum >> 4)
+        (sum << 4) ^ (ch.ord) ^ (sum >> 2)
       end % BUCKETS
     end
 
